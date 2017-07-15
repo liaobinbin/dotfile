@@ -70,6 +70,7 @@ source $ZSH/oh-my-zsh.sh
 # 文件编辑器
 # emacs
 alias e="emacs"
+alias et="emacs -nw"
 # zsh快速编辑
 alias zshconfig="emacs ~/.zshrc"
 alias ohmyzsh="emacs ~/.oh-my-zsh"
@@ -85,3 +86,6 @@ export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
