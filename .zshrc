@@ -67,6 +67,8 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 ### 系统工具类 *别名 ###
+# ths fuck
+eval "$(thefuck --alias)"
 # 文件编辑器
 # emacs
 alias e="emacs"
