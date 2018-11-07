@@ -48,6 +48,11 @@ ZSH_THEME="spaceship"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+# import zsh suggestion function
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# add zsh syntax highlight function
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 
@@ -67,8 +72,6 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 ### 系统工具类 *别名 ###
-# ths fuck
-eval "$(thefuck --alias)"
 # 文件编辑器
 # emacs
 alias e="emacs"
@@ -94,3 +97,11 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # Termial Start ANSI Code
 /Users/bob/Github/Color-Scripts/color-scripts/crunchbang-mini
+# The fuck function
+eval $(thefuck --alias)
+
+# Andriod Appcaltion Debug Env
+export PATH=$PATH:/Users/bob/Library/Android/sdk/platform-tools
+
+# Flutter Env Path
+export PATH=$PATH:/Users/bob/Study/flutter/bin
