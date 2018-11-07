@@ -1,5 +1,5 @@
 # oh-my-zs路径
-export ZSH=/Users/bob/.oh-my-zsh
+export ZSH=/Users/boiao/.oh-my-zsh
 # # 主题设置
 ZSH_THEME="spaceship"
 
@@ -94,14 +94,15 @@ export NVM_DIR="$HOME/.nvm"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+source $HOME/.rvm/scripts/rvm
 
 # Termial Start ANSI Code
-/Users/bob/Github/Color-Scripts/color-scripts/crunchbang-mini
+/Users/boiao/Github/Color-Scripts/color-scripts/boiaoch
 # The fuck function
 eval $(thefuck --alias)
 
 # Andriod Appcaltion Debug Env
-export PATH=$PATH:/Users/bob/Library/Android/sdk/platform-tools
+export PATH=$PATH:/Users/boiao/Library/Android/sdk/platform-tools
 
 # Flutter Env Path
-export PATH=$PATH:/Users/bob/Study/flutter/bin
+export PATH=$PATH:/Users/boiao/flutter/bin
